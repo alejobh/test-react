@@ -49,7 +49,9 @@ function Home() {
       <header className={styles.appHeader}>
         <img src={logo} className={styles.appLogo} alt="logo" />
         <p>TEST 1 - testing changes</p>
-        <button type="button">test</button>
+        <button type="button" onClick={handleClick}>
+          test
+        </button>
         <p className={styles.text}>{t('Home:loggedIn')}</p>
         <p className={styles.text}>{t('Home:techIs', { tech })}</p>
         <form className="column center m-bottom-10" onSubmit={onSubmit}>
