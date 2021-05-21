@@ -44,6 +44,7 @@ function Home() {
     <div className={styles.app}>
       <header className={styles.appHeader}>
         <img src={logo} className={styles.appLogo} alt="logo" />
+        <p>TEST</p>
         <p className={styles.text}>{t('Home:loggedIn')}</p>
         <p className={styles.text}>{t('Home:techIs', { tech })}</p>
         <form className="column center m-bottom-10" onSubmit={onSubmit}>
